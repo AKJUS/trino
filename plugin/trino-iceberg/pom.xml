@@ -17,7 +17,7 @@
     <properties>
         <!-- Nessie version (compatible with Iceberg release) must be bumped along with Iceberg version bump to avoid compatibility issues -->
         <dep.nessie.version>0.107.5</dep.nessie.version>
-        <dep.keycloak.version>26.0.8</dep.keycloak.version>
+        <dep.keycloak.version>26.1.3</dep.keycloak.version>
     </properties>
 
     <dependencyManagement>
@@ -25,7 +25,7 @@
             <dependency>
                 <groupId>org.jboss.resteasy</groupId>
                 <artifactId>resteasy-core</artifactId>
-                <version>6.0.3.Final</version>
+                <version>6.2.3.Final</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
